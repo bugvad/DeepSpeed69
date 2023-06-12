@@ -5,7 +5,7 @@ Copyright 2019 The Microsoft DeepSpeed Team
 import torch
 from torch.distributed.distributed_c10d import _get_global_rank
 import torch.distributed as dist
-from torch._six import inf
+from torch import inf
 from packaging import version as pkg_version
 
 from deepspeed.runtime.fp16.loss_scaler import LossScaler, DynamicLossScaler

@@ -16,7 +16,7 @@ from math import floor
 from bisect import bisect_left, bisect_right
 
 import torch
-from torch._six import inf
+from torch import inf
 import torch.distributed as dist
 
 from deepspeed.utils import groups, logger

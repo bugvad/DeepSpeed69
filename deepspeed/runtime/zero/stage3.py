@@ -16,7 +16,7 @@ from torch.cuda import Event, Stream
 from torch.nn import Module, Parameter
 import torch.distributed as dist
 import math
-from torch._six import inf
+from torch import inf
 from torch.nn import Module
 from torch.nn.parameter import Parameter
 
