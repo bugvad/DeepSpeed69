@@ -9,7 +9,7 @@ import time
 import torch.distributed as dist
 
 from deepspeed.utils.logging import logger
-
+#test
 
 class OnebitAdam(torch.optim.Optimizer):
     """Implements the 1-bit Adam algorithm. Currently GPU-only.
